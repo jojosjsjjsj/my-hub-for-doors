@@ -112,3 +112,15 @@ end)
 MainSection:NewButton("hardcore script ", "why did you try to check", function()
 loadstring(game:HttpGet('https://raw.githubusercontent.com/MuhXd/DoorSuff/main/DoorsModes/HardMode(Multplayer%2CProtected).lua'))()
 end)
+
+MainSection:NewButton("thanksgiving ", "why did you try to check", function()
+loadstring(game:HttpGet("https://github.com/ZepsyyCodesLUA/Utilities/blob/main/Doors/Thanksgiving.lua?raw=true"))()
+end)
+
+MainSection:NewButton("SPONGUSS entity replicator ", "why did you try to check", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/sponguss/Doors-Entity-Replicator/main/source.lua"))()
+end)
+
+MainSection:NewButton("skeleton chest execute in shop (read desc) ", "then you will see a door named E-001 open it.", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ChronoAccelerator/CometRestoration/main/Skeletonkey.lua"))()
+end)
